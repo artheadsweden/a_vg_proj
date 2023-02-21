@@ -58,8 +58,8 @@ def check_pwd(another_pw=False):
 
 
 if __name__ == '__main__':
-   print('===== Welcome to Password Strength Checker =====')
-   check_pw = check_pwd()
-   while check_pw:
-       check_password_strength2()
-       check_pw = check_pwd(True)
+    print('===== Welcome to Password Strength Checker =====')
+    check_pw = check_pwd()
+    while check_pw:
+        check_password_strength2()
+        check_pw = check_pwd(True)
